@@ -27,8 +27,6 @@
     <div class="container">
     <h1>The Pastry Shop</h1>
     <p>The Perfect Treat...</p>
-    
-     
     </div>
   </div>
   
