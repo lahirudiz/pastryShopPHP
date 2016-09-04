@@ -10,14 +10,24 @@
   		<?php
    		 	
    		?>
- <style>
- .breadcrumb {
-	 font-size:15px;
+<style>
+@font-face {
+    font-family: rage;
+    src: url(media\fonts\rage.ttf);
+}
+.breadcrumb {
+	 font-size:20px;
+	 } 
+.jumbotron{
+	background-colour:blue;
+    padding-left: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+	margin-bottom: 0px;
+	font-family: rage;
 	 }
- .jumbotron {
-	 background-colour:blue;
-	 }
- </style>        
+	 
+</style>        
         
 </head>
 <body>
@@ -27,8 +37,8 @@
     <div class="container">
     <h1>The Pastry Shop</h1>
     <p>The Perfect Treat...</p>
-    </div>
-  </div>
+  	</div>
+ </div>
   
 <nav id="a12" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
