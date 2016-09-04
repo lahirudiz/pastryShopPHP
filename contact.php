@@ -8,10 +8,21 @@
    			include('header.php');
 			include('footer.php');
    		?>
+<style>
+.pageContentWrapper {
+  margin-bottom:-23px;
+	}	
+.jumbotron {
+	margin-bottom: 0px;
+	 }	
+</style>
+   
    </head>
 <body>
 
 <p>Contact</p>
+
+
 
 </body>
 </html>
