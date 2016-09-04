@@ -4,7 +4,6 @@
 	Width:100%;
 	height:300px;
 	}
-		
 #div02 {
 	position: absolute;
 	background-color: #B3D3EB;
@@ -12,3 +11,16 @@
 	Width:200px;
 	height:100%;
 	}	
+.width {
+	width:100%;
+	height:20%;
+	}
+.padding {
+	padding: 0px;
+	}
+.pageContentWrapper {
+  margin-bottom:-23px;
+	}	
+.jumbotron {
+	margin-bottom: 0px;
+	 }	
