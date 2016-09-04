@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>The Pastry Shop</title>
@@ -7,124 +7,61 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<?php
-   			include('header.php');
-			include('footer.php');
+  		<?php
+   		 	
    		?>
 <style>
-.width {
-	width:100%;
-	height:20%;
-	}
-	
-.padding {
-	padding: 0px;
-	}
-	
-.pageContentWrapper{
-  margin-bottom:-23px;
-	}	
+@font-face {
+    font-family: rage;
+    src: url(media\fonts\rage.ttf);
+}
+.breadcrumb {
+	 font-size:20px;
+	 } 
 .jumbotron{
+	background-colour:blue;
+    padding-left: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 	margin-bottom: 0px;
-	 }	
-</style>
-
+	font-family: rage;
+	 }
+	 
+</style>        
+        
 </head>
 <body>
-<section class="width padding">
 
-  <div id="myCarousel" class="carousel slide">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li class="item1 active"></li>
-      <li class="item2"></li>
-      <li class="item3"></li>
-      <li class="item4"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="media\images\1.jpg" alt="Chania" width="1920" height="1080">
-      </div>
-
-      <div class="item">
-        <img src="media\images\2.jpg" alt="Chania" width="1920" height="1080">
-      </div>
-    
-      <div class="item">
-        <img src="media\images\3.jpg" alt="Flower" width="1920" height="1080">
-      </div>
-
-      <div class="item">
-        <img src="media\images\4.jpg" alt="Flower" width="1920" height="1080">
-      </div>
+<div>
+  <div class="jumbotron">
+    <div class="container">
+    <h1>The Pastry Shop</h1>
+    <p>The Perfect Treat...</p>
+  	</div>
+ </div>
+  
+<nav id="a12" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="home.php">The Pastry Shop</a>
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="home.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li><a href="contact.php"><span class="glyphicon glyphicon-phone"></span> Contact</a></li>
+      </ul>
   </div>
+</nav>
 
-</section>
-
-<script>
-$(document).ready(function(){
-    // Activate Carousel
-    $("#myCarousel").carousel({interval: 2000, pause: "hover"});
-    
-    // Enable Carousel Indicators
-    $(".item1").click(function(){
-        $("#myCarousel").carousel(0);
-    });
-    $(".item2").click(function(){
-        $("#myCarousel").carousel(1);
-    });
-    $(".item3").click(function(){
-        $("#myCarousel").carousel(2);
-    });
-    $(".item4").click(function(){
-        $("#myCarousel").carousel(3);
-    });
-    
-    // Enable Carousel Controls
-    $(".left").click(function(){
-        $("#myCarousel").carousel("prev");
-    });
-    $(".right").click(function(){
-        $("#myCarousel").carousel("next");
-    });
-});
-</script>
-
-<div class="container">
-
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
+<div>            
+  <ul class="breadcrumb">
+    <li><a href="home.php">Home</a></li>
+    <li><a href="shops.php">Shops</a></li>
+    <li><a href="gallery.php">Gallery</a></li>
+    <li><a href="contact.php">Contact</a></li>
+    <li class="active">About</li>        
+  </ul>
 </div>
-
-
+</div>
 
 </body>
 </html>
