@@ -70,7 +70,7 @@
 
 <script>
 $(document).ready(function(){
-    // Activate Carousel
+   // Activate Carousel
     $("#myCarousel").carousel({interval: 5000, pause: "hover"});
     
     // Enable Carousel Indicators
