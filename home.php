@@ -24,7 +24,32 @@
 	}	
 .jumbotron {
 	margin-bottom: 0px;
-	 }	
+	 }
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  width:200px;
+  color: #fff;
+  background-color: #FBB654;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color: #FF9B2C;}
+
+.button:active {
+  background-color: #F3B911;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}	
+.row {
+	text-align:center;
+} 	
 </style>
 
 </head>
@@ -70,7 +95,7 @@
 
 <script>
 $(document).ready(function(){
-   // Activate Carousel
+    // Activate Carousel
     $("#myCarousel").carousel({interval: 5000, pause: "hover"});
     
     // Enable Carousel Indicators
@@ -94,28 +119,24 @@ $(document).ready(function(){
 });
 </script>
 
-<div class="container">
 
+<div class="container-fluid">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <h3>Promotions</h3>
+      <button class="button" href="">Click</button>
     </div>
     <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <h3>Order Online</h3>
+      <a href="order.php"><button class="button" >Click</button></a>
     </div>
     <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <h3>Hot Pick</h3>        
+      <button class="button">Click</button>
     </div>
   </div>
 </div>
-
-
+<br/><br/>
 
 </body>
 </html>
