@@ -37,12 +37,12 @@
     <div class="container">
     <h1>The Pastry Shop</h1>
     <p>The Perfect Treat...</p>
-    </div>
-  </div>
+  	</div>
+ </div>
   
 <nav id="a12" class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
+  <div class="container-fluid" >
+    <div class="navbar-header" style="text-align:left;">
       <a class="navbar-brand" href="home.php">The Pastry Shop</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
@@ -56,6 +56,7 @@
   <ul class="breadcrumb">
     <li><a href="home.php">Home</a></li>
     <li><a href="shops.php">Shops</a></li>
+    <li><a href="order.php">Order</a></li>
     <li><a href="gallery.php">Gallery</a></li>
     <li><a href="contact.php">Contact</a></li>
     <li class="active">About</li>        
