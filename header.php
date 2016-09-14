@@ -37,8 +37,8 @@
     <div class="container">
     <h1>The Pastry Shop</h1>
     <p>The Perfect Treat...</p>
-  	</div>
- </div>
+    </div>
+  </div>
   
 <nav id="a12" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
