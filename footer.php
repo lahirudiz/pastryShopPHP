@@ -32,6 +32,7 @@ html,body{
     right: 0;
     height:150px;
     background:black;
+    color:#FFFFFF;
 }
 
 </style>       
