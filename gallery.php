@@ -8,14 +8,22 @@
    			include('header.php');
 			include('footer.php');
    		?>
-   </head>
+
+<style>
+.pageContentWrapper {
+  margin-bottom:-23px;
+	}	
+.jumbotron {
+	margin-bottom: 0px;
+	 }	
+</style>
+
+</head>
 <body>
 
 <div class="container">
-  <h2>Carousel Options</h2>
-  <p>The <strong>pause</strong> option pauses the carousel from going through the slides when the mouse pointer enters the carousel.</p>
-  <p>In this example, we have set pause to "hover" (default), which will stop the slide when your mouse pointer enters the carousel.</p>
-  <div id="myCarousel" class="carousel slide">
+  <h2>Gallery</h2>
+   <div id="myCarousel" class="carousel slide">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li class="item1 active"></li>
@@ -58,7 +66,7 @@
 <script>
 $(document).ready(function(){
     // Activate Carousel
-    $("#myCarousel").carousel({interval: 1000, pause: "hover"});
+    $("#myCarousel").carousel({interval: 5000, pause: "hover"});
     
     // Enable Carousel Indicators
     $(".item1").click(function(){
